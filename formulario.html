@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+        <form method="POST" action="pesquisa.html">
+            <section>
+                <h1>Formulário - Dados</h1>
+                <p>
+                    Preencha os seguintes dados = 
+                </p>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Nome">
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="E-mail">
+                </p>
+                <p>
+                    <label for="telefone">Telefone de Contato:</label>
+                    <input type="number" id="telefone" placeholder="Telefone">
+                </p>
+            </section>
+            <section>
+                <h2>Pesquisa</h2>
+                Qual seu Estado-Civil?
+                <p>
+                    <label for="solteiro">Solteiro(a)</label>
+                    <input type="radio" id="solteiro" name="estado-civil">
+                    <label for="casado">Casado(a)</label>
+                    <input type="radio" id="casado" name="estado-civil">
+                </p>
+                Quantos filhos possui?
+                <p>
+                    <label for="1">1</label>
+                    <input type="radio" id="1" name="num_filhos">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="num_filhos">
+                    <label for="3">3</label>
+                    <input type="radio" id="3" name="num_filhos">
+                    <label for="4 ou mais">4 ou +</label>
+                    <input type="radio" id="4" name="num_filhos">
+                </p>
+                <p>
+                    Selecione sua faixa Etária   
+                    <select>
+                        <option>0-17</option>
+                        <option>18-59</option>
+                        <option>60+</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" id="termos">
+                    <label for="termos">Autorizo compartilhamento com terceiros</label>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </section>
+        </form>
+    </body>
+</html>
