@@ -1,0 +1,30 @@
+/*Numero 1= pseudoseletores*/
+a{
+    color:red;
+}
+a:hover{
+    color:lime;
+}
+
+/*Numero 2*/
+
+h{
+    font-family: Arial;
+}
+
+h1 + p{
+    font-weight: bold;
+}
+
+/*Número 3*/
+
+.destaque{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.destaque{
+    font-weight: bold;
+}
+strong.destaque{
+    color:red
+}
