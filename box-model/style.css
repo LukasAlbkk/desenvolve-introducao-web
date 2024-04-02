@@ -1,0 +1,36 @@
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+.intro{
+    height: 550px;
+}
+#design-archives{
+    display: none;
+}
+header{
+    background-color: rgb(48, 46, 46);
+    color: aliceblue;   
+}
+header h1, header h2{
+    display: inline-block;
+}
+header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+footer{
+    margin-bottom: 4%;
+}
+footer a{
+    border: solid 2px;
+    padding: 0.5em;
+}
