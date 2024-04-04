@@ -1,0 +1,144 @@
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+.intro{
+    height: 550px;
+}
+#design-archives{
+    display: none;
+}
+header{
+    background-color: rgb(48, 46, 46);
+    color: aliceblue;   
+}
+header h1, header h2{
+    display: inline-block;
+}
+header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+footer{
+    margin-bottom: 4%;
+}
+footer a{
+    border: solid 2px;
+    padding: 0.5em;
+}
+html{
+    color:#594A3C;
+    background:#F2E4BB;
+
+}
+
+a{
+    color:#3CA6A6;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-indent: 1em;
+}
+
+h{
+    text-align: left;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+.summary{
+    text-align: center;
+}
+
+main p{
+    line-height: 1.5;
+}
+
+abbr{
+    font-variant: small-caps;
+}
+.page-wrapper{
+    position: relative;
+}
+.explanation{
+    width: 60%;  
+    border-right:#1f295c solid 1px;
+    padding-right: 2%;
+}
+.design-selection{
+    position: absolute;
+    top: 500px;
+    left: 64%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+a{
+    font-weight: bold;
+    color: rgb(52, 8, 209);
+}
+a:visited{
+    font-weight: none;
+    color: aquamarine;
+}
+
+.main p:first-of-type::first-letter{
+    font-size: 3em;
+    font-family: Arial;
+    float: left;    
+}
+.design-selection li{
+    background-color: rgb(171, 171, 248);
+    margin: 10px;
+    border-top: solid 2px black;
+}
+.design-selection li:last-child{
+    border-bottom: solid 2px black;
+}
+
+@media screen and (max-width:768px){    
+    .design-selection{
+        position: static;
+        width: 100%;
+    }
+    .explanation{
+        border-right: none;
+        width: 100%;
+    }
+    .intro{
+        height: auto;
+    }
+    .participation{
+        flex-direction: column;
+    }
+    p{
+        text-indent: 0;
+    }
+}
+
+@media print{
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .intro header{
+        background-color: antiquewhite;
+    }
+}
