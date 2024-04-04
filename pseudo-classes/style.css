@@ -1,0 +1,22 @@
+a{
+    font-weight: bold;
+    color: rgb(52, 8, 209);
+}
+a:visited{
+    font-weight: none;
+    color: aquamarine;
+}
+
+.main p:first-of-type::first-letter{
+    font-size: 3em;
+    font-family: Arial;
+    float: left;    
+}
+.design-selection li{
+    background-color: rgb(171, 171, 248);
+    margin: 10px;
+    border-top: solid 2px black;
+}
+.design-selection li:last-child{
+    border-bottom: solid 2px black;
+}
