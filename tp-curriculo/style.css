@@ -51,12 +51,18 @@ html{
 }
 .educacao h1{
     color: #333;
+    max-width: fit-content;
+    background-color: rgb(196, 179, 179);
+    border-radius: 10px;
 }
 .educacao{
     border-bottom: 4px solid rgb(48 ,46, 46);
 }
 .certificados h1{
-    color:#333
+    color:#333;
+    max-width: fit-content;
+    background-color: rgb(196, 179, 179);
+    border-radius: 10px;
 }
 .certificado{
     
@@ -73,5 +79,13 @@ html{
 #link{
     flex-basis: auto;
 }
+.experiencias h1{
+    max-width: fit-content;
+    color: #333;
+    background-color: rgb(196, 179, 179);
+    border-radius: 10px;
+}
+
+
 
 
