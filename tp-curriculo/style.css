@@ -1,0 +1,77 @@
+html{
+    background-color: #F2E4BB
+}
+.pagina-principal{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+.apresentacao h1 {
+    display: flex;
+    background-color: rgb(48 ,46, 46);
+    height: 100px;
+    color: aliceblue;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    align-items: center;
+    font-size: 2.5em;
+}
+.summary{
+    display: flex;
+    border-bottom: 4px solid rgb(48 ,46, 46);
+}
+.summary h3{
+    color: #333;
+}
+#foto{
+    padding-left: 2%;
+    padding-top: 20px;
+}
+#info{
+    padding-left:5%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    margin: auto;
+}
+.registro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.registro h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.registro p {
+    margin: 5px 0;
+}
+.educacao h1{
+    color: #333;
+}
+.educacao{
+    border-bottom: 4px solid rgb(48 ,46, 46);
+}
+.certificados h1{
+    color:#333
+}
+.certificado{
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    border-bottom:dashed 2px #333;
+}
+#imagem{
+    padding-right: auto;
+}
+#link{
+    flex-basis: auto;
+}
+
+
