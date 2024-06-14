@@ -1,14 +1,23 @@
 html{
-    background-color: #F2E4BB
+    background-color:   #f1e4ba
+}
+
+#texto_top{
+    color: rgb(8, 8, 5);
 }
 .pagina-principal{
     width: 80%;
     max-width: 1280px;
     margin: auto;
 }
+#link_cabecalho{
+    position: relative;
+    right: 50px;
+}
+
 .apresentacao h1 {
     display: flex;
-    background-color: rgb(48 ,46, 46);
+    background-color: rgb(184, 61, 61);
     height: 100px;
     color: aliceblue;
     justify-content: center;
@@ -16,10 +25,11 @@ html{
     margin: auto;
     align-items: center;
     font-size: 2.5em;
+    border: solid 4px rgb(48 ,46, 46)
 }
 .summary{
     display: flex;
-    border-bottom: 4px solid rgb(48 ,46, 46);
+    border-bottom: 4px solid rgb(47, 46, 48);
 }
 .summary h3{
     color: #333;
@@ -54,15 +64,18 @@ html{
     max-width: fit-content;
     background-color: rgb(196, 179, 179);
     border-radius: 10px;
+    border-bottom: solid 4px rgb(48 ,46, 46)
 }
 .educacao{
     border-bottom: 4px solid rgb(48 ,46, 46);
+ 
 }
 .certificados h1{
     color:#333;
     max-width: fit-content;
     background-color: rgb(196, 179, 179);
     border-radius: 10px;
+    border-bottom: solid 4px rgb(48 ,46, 46)
 }
 .certificado{
     
@@ -84,8 +97,73 @@ html{
     color: #333;
     background-color: rgb(196, 179, 179);
     border-radius: 10px;
+    border-bottom: solid 4px rgb(48 ,46, 46);
+}
+.experiencias{
+    border-bottom: 4px solid rgb(48 ,46, 46);
 }
 
+.habilidades h1{
+    max-width: fit-content;
+    color: #333;
+    background-color: rgb(196, 179, 179);
+    border-radius: 10px;
+    border-bottom: solid 4px rgb(48 ,46, 46);
+}
 
+.habilidades_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(48 ,46, 46);
+    padding: 10px;
+    height: 200px;
+    
+}
+.div_lista1{
+    display:flex;
+    flex-direction:column;    
+}
+.div_lista1 ul{
+    position: relative;
+    bottom: 16px;
+}
+.div_lista2{
+    position:relative;
+    bottom: 53px;
+    }
 
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 
+}
+.rodape_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;    
+}
+
+.redes h3{
+    color: #333;
+    background-color: rgb(196, 179, 179);
+    border-radius: 10px;
+    border-bottom: solid 4px rgb(48 ,46, 46);
+
+}
+.redes{
+    border-bottom: dashed rgb(48 ,46, 46);
+}
+.copyright{
+    position: relative;
+    top: 50px;
+}
+
+#link{
+    position: relative;
+    top: 7px;
+}
